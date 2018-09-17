@@ -28,14 +28,26 @@ public class Testes {
 
     private static void exibeResultado(String titulo, String esperado, String recebido) {
 
-        Function<String, String> formata = esperado.equals(recebido) ? Testes::sucesso : Testes::falha;
+        boolean testePassou = esperado.equals(recebido);
 
-        out.println();
-        out.println(formata.apply(titulo));
-        out.println(formata.apply(esperado(esperado)));
-        out.println(formata.apply(recebido(recebido)));
-        out.println();
+        Function<String, String> formata = testePassou ? Testes::sucesso : Testes::falha;
+
+        String descricaoResultado = testePassou ? " - OK" : " - FALHOU";
+
+        if (!testePassou) {
+            out.println();
+        }
+
+        out.println(formata.apply(titulo + descricaoResultado));
+
+        if (!testePassou) {
+            out.println(formata.apply(esperado(esperado)));
+            out.println(formata.apply(recebido(recebido)));
+            out.println();
+        }
+
     }
+
 
     private static String esperado(String valor) {
         return format("  Esperado: %s", valor);
