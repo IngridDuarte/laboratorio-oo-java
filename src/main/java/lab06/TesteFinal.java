@@ -24,11 +24,15 @@ package lab06;
  *      Fiat        Mille       2001
  *
  *    3: Percorra a lista criada e concatene o resultado de toString de cada carro da lista a variavel resultado.
- *    Separe cada saida com um ponto-e-virgula. Veja o exemplo abaixo:
+ *    Separe cada saida com um traco entre dois espacos em branco. Veja o exemplo abaixo:
  *
  *        Dica:
  *
- *         resultado += "; " + carro.toString();
+ *         resultado += " - " + carro.toString();
+ *
+ *         O valor final da variavel deve ser o seguinte:
+ *
+ *         " - Chevrolet Onix 2018 - Ford Fiesta 2006 - Fiat Mille 2001"
  *
  *    4:  retorne a variavel resultado e verifique se o teste passou.
  *

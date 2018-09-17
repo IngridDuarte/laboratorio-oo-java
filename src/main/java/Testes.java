@@ -22,8 +22,8 @@ public class Testes {
         exibeResultado("Lab 03", "Fiat 147 Branco", TesteAtributosCarro.teste());
         exibeResultado("Lab 04", "Ford Del Rey Laranja", TesteToString.teste());
         exibeResultado("Lab 05", "Chevrolet Celta; Ford Corcel; Ford Maverick", TesteListas.teste());
-        exibeResultado("Lab 06 - ToString", "Chevrolet Onix; Ford Fiesta; Fiat Mille", TesteFinal.teste());
-        exibeResultado("Lab 06 - Desafio", "Chevrolet Onix; Ford Fiesta; Fiat Mille", TesteFinal.testeComGetters());
+        exibeResultado("Lab 06 - ToString", " - Chevrolet Onix 2018 - Ford Fiesta 2006 - Fiat Mille 2001", TesteFinal.teste());
+        exibeResultado("Lab 06 - Desafio", " - Chevrolet Onix 2018 - Ford Fiesta 2006 - Fiat Mille 2001", TesteFinal.testeComGetters());
     }
 
     private static void exibeResultado(String titulo, String esperado, String recebido) {
