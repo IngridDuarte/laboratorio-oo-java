@@ -2,20 +2,15 @@ package lab02;
 
 /**
  *
- * Na classe Carro:
+ *  1: Crie os atributos necessarios na classe Carro
  *
- *  1: Crie os atributos necessarios
+ *  2: Crie um construtor que receba e atribua todos os atributos da classe Carro
  *
- *  2: Crie metodos getters e setters para todos os atributos
+ *  3: Crie metodos getters para todos os atributos
  *
+ *  4: Crie um novo objeto da classe Carro (utilize o construtor para definir o valor de cada atributo)
  *
- *  Na classe TesteConstrutoresCarro:
- *
- *  1: Criar um novo Carro
- *
- *     1.1: Definir seus atributos via construtor
- *
- *  2: Retornar uma string com marca e modelo do carro criado
+ *  5: Descomente o codigo, faca-o compilar e faca o teste passar
  *
  */
 public class TesteConstrutoresCarro {

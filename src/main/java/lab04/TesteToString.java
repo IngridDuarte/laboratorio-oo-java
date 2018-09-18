@@ -5,24 +5,24 @@ public class TesteToString {
 
     /**
      *
-     * Na classe Carro:
+     *  1: Crie os atributos necessarios na classe carro
      *
-     *  1: Crie os atributos necessarios
+     *  2: Implemente um construtor que receba todos os atributos
      *
-     *  2: Crie um construtor que receba os atributos
+     *  3: Implemente o metodo toString() que retorne a marca e o modelo do carro separados por um espaco em branco
      *
-     *  3: Implemente o metodo toString()
+     *  4: Criar um novo objeto da classe Carro (utilize o construtor para definir o valor dos atributos)
      *
+     *  5: O objeto deve possuir os seguintes atributos:
      *
-     *  Na classe TesteToString:
+     *      Marca       Modelo      Cor
+     *      Ford        Del Rey     Laranja
      *
-     *  1: Criar um novo Carro
+     *  6: Faca o teste passar
      *
-     *     1.1: Definir seus atributos via construtor
-     *
-     *  2: Retornar resultado do metodo toString() da classe Carro
      *
      */
+
     public static String teste() {
         return "-";
     }

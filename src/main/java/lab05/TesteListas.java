@@ -7,18 +7,13 @@ import static java.util.stream.Collectors.joining;
 
 /**
  *
- * Na classe Carro:
- *
  *  1: Crie os atributos marca e modelo
  *
  *  2: Utilize um construtor ou setters para atribuicao de valores aos atributos
  *
  *  3: Implemente o metodo toString() que retorne marca e modelo separados por um espaco em branco
  *
- *
- *  Na classe TesteListas:
- *
- *  1: Crie tres carros com os seguintes atributos:
+ *  1: Crie tres objetos de carros com os seguintes atributos:
  *
  *      Marca       Modelo
  *
