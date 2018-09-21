@@ -4,6 +4,7 @@ import lab03.TesteAtributosCarro;
 import lab04.TesteToString;
 import lab05.TesteListas;
 import lab06.TesteFinal;
+import lab07.TesteMagias;
 
 import java.util.function.Function;
 
@@ -24,6 +25,9 @@ public class Testes {
         exibeResultado("Lab 05", "Chevrolet Celta; Ford Corcel; Ford Maverick", TesteListas.teste());
         exibeResultado("Lab 06 - ToString", " - Chevrolet Onix 2018 - Ford Fiesta 2006 - Fiat Mille 2001", TesteFinal.teste());
         exibeResultado("Lab 06 - Desafio", " - Chevrolet Onix 2018 - Ford Fiesta 2006 - Fiat Mille 2001", TesteFinal.testeComGetters());
+        exibeResultado("Lab 07 - Envenenamento", "Personagem{nome='Policarpo Quaresma', vida=90, energia=100}", TesteMagias.testeEnvenenamento());
+        exibeResultado("Lab 07 - Cura", "Personagem{nome='Joana D'Arc', vida=100, energia=100}", TesteMagias.testeCura());
+        exibeResultado("Lab 07 - Sono", "Personagem{nome='Rosinha de Valenca', vida=100, energia=90}", TesteMagias.testeSono());
     }
 
     private static void exibeResultado(String titulo, String esperado, String recebido) {
