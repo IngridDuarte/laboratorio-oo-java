@@ -1,11 +1,10 @@
 package lab07;
 
-public class Envenenamento implements Magia {
-
+public class Cura implements Magia {
     @Override
     public void aplica(Personagem personagem) {
 
-        personagem.diminuiVida(10);
+        personagem.aumentaVida(10);
     }
 
 }

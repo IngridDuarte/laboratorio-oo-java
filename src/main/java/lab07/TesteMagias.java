@@ -6,7 +6,9 @@ public class TesteMagias {
 
         Personagem policarpo = new Personagem("Policarpo Quaresma", 100, 100);
 
-//        Magia veneno = ???
+        Envenenamento envenena = new Envenenamento();
+
+        envenena.aplica(policarpo);
 
         return policarpo.toString();
 
@@ -18,6 +20,10 @@ public class TesteMagias {
 
 //        Magia cura = ???;
 
+        Cura cura = new Cura();
+
+        cura.aplica(joanaDarc);
+
         return joanaDarc.toString();
     }
 
@@ -25,6 +31,9 @@ public class TesteMagias {
         Personagem rosinhaDeValenca = new Personagem("Rosinha de Valenca", 100, 100);
 
 //        Magia sono = ???;
+
+        Sono dorme = new Sono();
+        dorme.aplica(rosinhaDeValenca);
 
         return rosinhaDeValenca.toString();
     }
