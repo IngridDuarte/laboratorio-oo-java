@@ -20,20 +20,20 @@ public class Personagem {
         return energia;
     }
 
-    public void aumentaVida(int valor) {
-        vida += valor;
+    public int aumentaVida(int valor) {
+      return  vida += valor;
     }
 
-    public void diminuiVida(int valor) {
-        vida -= valor;
+    public int diminuiVida(int valor) {
+       return vida -= valor;
     }
 
-    public void aumentaEnergia(int valor) {
-        energia += valor;
+    public int aumentaEnergia(int valor) {
+       return  energia += valor;
     }
 
-    public void diminuiEnergia(int valor) {
-        energia -= valor;
+    public int diminuiEnergia(int valor) {
+       return energia -= valor;
     }
 
     @Override
